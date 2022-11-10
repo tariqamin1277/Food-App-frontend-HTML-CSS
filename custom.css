@@ -1,0 +1,66 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.headerimage {
+    background: url("figure6.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.headerwrapper {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.headerwrapper h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+#pcode {
+    text-align: center;
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .8rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+}
+.form_pcode button {
+    text-align: center;
+    display: inline-block;
+    width: 40%;
+    margin-left: 12rem;
+    border-radius: 2rem;
+    padding: .4rem;
+    border: none;
+    background-color: #00bab1;
+}
+.form_pcode label {
+    display: inline-block;
+    margin-left: 4rem;
+    border: none;
+    margin-bottom: .3rem;
+}
+.product_section {
+    width: 80%;
+    margin-left: 3rem;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+.product_list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+/* .product-image {
+    margin-left: 1rem;
+} */
+
+
